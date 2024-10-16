@@ -5,7 +5,7 @@
 # ◾ Introduce
 * FPGA(Basys3) 보드를 이용 LCD를 사용하여 화면을 구현
 * 블루투스 모듈을 사용하여 통신
-* Verilog언어를 Vivado 프로그램을 사용하여 SOC설계
+* Verilog언어를 Vivado 프로그램을 사용하여 SoC설계
 * C언어를 Vitis 프로그램을 사용하여 설계
 
 # ◾ Basic Features
@@ -15,17 +15,18 @@
 * Backspace 버튼으로 작성한 내용 수정 가능
 
 # ◾ Detailed Features
-||시계|스톱워치|타이머|
+|키입력/모드변환|키입력|키입력/취소|전송|
 |:---:|:---:|:---:|:---:|
-|Btn1|셋팅모드|일시정지/재생|일시정지/재생|
-|Btn2|초 설정|현재시간 저장|초 설정|
-|Btn3|분 설정|X|분 설정|
-|Btn4|모드변경|모드변경|모드변경|
-
-# ◾ Operation Video
-* 문자통신
-* 모드변환
-* 특수문
+|ABC|DEF|GHI| . , ! |
+|JKL|MNO|PQR|?  🖤 🤍|
+|STU|VWX|YZ@|문자확정|
+|mode(Eng/Num)|🙂😛🎩|취소|전송|
+|||||
+|키입력/모드변환|키입력|키입력/취소|전송|
+|1|2|3|+|
+|4|5|6|-|
+|7|8|9|문자확정|
+|mode(Eng/Num)|0|취소|전송|
 
 # 📌 PPT
 https://www.miricanvas.com/v/13ag62e
