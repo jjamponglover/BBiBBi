@@ -15,7 +15,7 @@
 void Iic_LCD_write_byte(u8 tx_data, u8 rs);
 void Iic_LCD_init(void);
 void Iic_movecursor(u8 row, u8 col);
-void LCD_write_string(char *string);	//¹®ÀÚ¿­ ¹è¿­ -> ÁÖ¼Ò°ªÀ¸·Î ¹Ş¾Æ¾ßÇÔ
+void LCD_write_string(char *string);	//ë¬¸ìì—´ ë°°ì—´ -> ì£¼ì†Œê°’ìœ¼ë¡œ ë°›ì•„ì•¼í•¨
 void Iic_LCD_create_char(u8 location, u8 charmap[]);
 char keypad_value1(u8 key_input);
 char keypad_value2(u8 key_input);
@@ -32,8 +32,8 @@ void clear_lcd(int a);
 XIic iic_device;
 XUartLite uart_device;
 
-#define MAX_LCD_CHAR        80  	// ÇÑ ÁÙ¿¡ 40ÀÚ, µÎ ÁÙÀÌ¹Ç·Î ÃÑ 80ÀÚ
-#define NUM_KEYS 			16		// key 16°³
+#define MAX_LCD_CHAR        80  	// í•œ ì¤„ì— 40ì, ë‘ ì¤„ì´ë¯€ë¡œ ì´ 80ì
+#define NUM_KEYS 			16		// key 16ê°œ
 
 #define BL 3
 #define EN 2
@@ -43,13 +43,13 @@ XUartLite uart_device;
 #define COMMAND 0
 #define DATA 1
 
-int lcd_count = 0;	//lcd ÀÚ¸®
+int lcd_count = 0;	//lcd ìë¦¬
 int mode_count = 0;
 int current_key = 0;
-int key_count[NUM_KEYS] = {0};		// °¢ Å°ÀÇ ´©¸¥ È½¼ö¸¦ ¼¼´Â ¹è¿­
+int key_count[NUM_KEYS] = {0};		// ê° í‚¤ì˜ ëˆ„ë¥¸ íšŸìˆ˜ë¥¼ ì„¸ëŠ” ë°°ì—´
 
-char lcd_string[MAX_LCD_CHAR + 1] 	= {0};  	// LCD¿¡ ÀÔ·ÂµÈ ¹®ÀÚ¿­À» ÀúÀåÇÒ ¹è¿­
-volatile char Tx[MAX_LCD_CHAR + 1] 	= {0};		// Àü¼Û ½Ã LCD ¹®ÀÚ¿­À» ³Ñ°Ü ¹ŞÀ» Tx ¹è¿­
+char lcd_string[MAX_LCD_CHAR + 1] 	= {0};  	// LCDì— ì…ë ¥ëœ ë¬¸ìì—´ì„ ì €ì¥í•  ë°°ì—´
+volatile char Tx[MAX_LCD_CHAR + 1] 	= {0};		// ì „ì†¡ ì‹œ LCD ë¬¸ìì—´ì„ ë„˜ê²¨ ë°›ì„ Tx ë°°ì—´
 volatile char Rx[MAX_LCD_CHAR + 1]  = {0};
 
 int main()
@@ -57,8 +57,8 @@ int main()
 	unsigned int *key_input = (volatile unsigned int *)KEYPAD_ADDR;
 	u8 data = 0 ;
 	u8 key_data = 0;
-	u8 count_mode = 0;		// ¿µ¾î ÀÔ·Â 3°¡Áö ¸ğµå ÀüÈ¯
-	u8 heart[8] = {			// ²ËÂù ÇÏÆ®
+	u8 count_mode = 0;		// ì˜ì–´ ì…ë ¥ 3ê°€ì§€ ëª¨ë“œ ì „í™˜
+	u8 heart[8] = {			// ê½‰ì°¬ í•˜íŠ¸
 			        0b00000,
 			        0b01010,
 			        0b11111,
@@ -68,7 +68,7 @@ int main()
 			        0b00100,
 			        0b00000
 			    	};
-	u8 empty_heart[8] = {		// ºó ÇÏÆ®
+	u8 empty_heart[8] = {		// ë¹ˆ í•˜íŠ¸
 					0b00000,
 					0b01010,
 					0b10101,
@@ -88,7 +88,7 @@ int main()
 					0b00000,
 					0b00000
 				    };
-	u8 mr[8] = {			// ¸Ş·Õ
+	u8 mr[8] = {			// ë©”ë¡±
 					0b00000,
 					0b01010,
 					0b01010,
@@ -98,7 +98,7 @@ int main()
 					0b01110,
 					0b00000
 					};
-	u8 hat[8] = {			// ¸ğÀÚ
+	u8 hat[8] = {			// ëª¨ì
 					0b01110,
 					0b01010,
 					0b11111,
@@ -133,43 +133,43 @@ int main()
 
     while(1)
     {
-    	if(Rx){																//Rx ¼ö½Å
+    	if(Rx){																//Rx ìˆ˜ì‹ 
 			RecvHandler(&uart_device, &Rx);
 		}
 
-    	if(key_input[1] && (key_input[0] == 0xB)) {							//S12¹ø È®ÀÎ ¹öÆ°
+    	if(key_input[1] && (key_input[0] == 0xB)) {							//S12ë²ˆ í™•ì¸ ë²„íŠ¼
     		MB_Sleep(500);
     		key_data == '\0';
-//    		if(key_data=='\0'){		// '\0' : ¹®ÀÚ¿­ÀÌ ³¡³µÀ½À» ÀÇ¹Ì, NULL - ¼ıÀÚ 0 °ú ±¸ºĞÇÏ±â À§ÇØ ¾²ÀÓ
+//    		if(key_data=='\0'){		// '\0' : ë¬¸ìì—´ì´ ëë‚¬ìŒì„ ì˜ë¯¸, NULL - ìˆ«ì 0 ê³¼ êµ¬ë¶„í•˜ê¸° ìœ„í•´ ì“°ì„
 //    			key_data=' ';
 //    		}
-    		if(lcd_count+6<16){		// lcd_count + 6 -> lcd¿¡ send: 5±ÛÀÚ ÀÌ¹Ì Ãâ·ÂÇØµĞ »óÅÂÀÌ±â ¶§¹®¿¡ Ä¿¼­¸¦ ±× ´ÙÀ½À¸·Î µÎ±â À§ÇØ¼­
+    		if(lcd_count+6<16){		// lcd_count + 6 -> lcdì— send: 5ê¸€ì ì´ë¯¸ ì¶œë ¥í•´ë‘” ìƒíƒœì´ê¸° ë•Œë¬¸ì— ì»¤ì„œë¥¼ ê·¸ ë‹¤ìŒìœ¼ë¡œ ë‘ê¸° ìœ„í•´ì„œ
 				Iic_movecursor(0, lcd_count+6);
-				lcd_string[lcd_count] = key_data;  // ÀÔ·ÂµÈ ¹®ÀÚ¸¦ ¹®ÀÚ¿­ ¹è¿­¿¡ ÀúÀå
+				lcd_string[lcd_count] = key_data;  // ì…ë ¥ëœ ë¬¸ìë¥¼ ë¬¸ìì—´ ë°°ì—´ì— ì €ì¥
 
-				key_input[1] = 0;			// key_valid = 0, Å°ÀÇ ÀÔ·Â°ª ÃÊ±âÈ­
-				lcd_count += 1;				// lcd_count ÃÊ±âÈ­
-				key_data = 0;				// Å° °ª ÃÊ±âÈ­
-				count_mode = 0;				// ¿µ¾î ÀÔ·Â ¸ğµå ÃÊ±âÈ­
+				key_input[1] = 0;			// key_valid = 0, í‚¤ì˜ ì…ë ¥ê°’ ì´ˆê¸°í™”
+				lcd_count += 1;				// lcd_count ì´ˆê¸°í™”
+				key_data = 0;				// í‚¤ ê°’ ì´ˆê¸°í™”
+				count_mode = 0;				// ì˜ì–´ ì…ë ¥ ëª¨ë“œ ì´ˆê¸°í™”
 
-				for(int i = 0; i < NUM_KEYS; i++ ){		// °¢ Å°ÀÇ ´©¸¥ È½¼ö¸¦ ÃÊ±âÈ­
+				for(int i = 0; i < NUM_KEYS; i++ ){		// ê° í‚¤ì˜ ëˆ„ë¥¸ íšŸìˆ˜ë¥¼ ì´ˆê¸°í™”
 				key_count[i] = 0;
 				}
     		}
     	}
 
-    	if(key_input[1] && (key_input[0] == 0xC)){						//S13¹ø : ¼ıÀÚ_¹®ÀÚ Åä±Û ¹öÆ°
+    	if(key_input[1] && (key_input[0] == 0xC)){						//S13ë²ˆ : ìˆ«ì_ë¬¸ì í† ê¸€ ë²„íŠ¼
     		MB_Sleep(500);
     		mode_count ^= 1;
     	}
 
-		if(key_input[1] && (key_input[0] == 0xE)) {							//S15¹ø ¹é½ºÆäÀÌ½º Ã³¸® ÇÔ¼ö È£Ãâ
+		if(key_input[1] && (key_input[0] == 0xE)) {							//S15ë²ˆ ë°±ìŠ¤í˜ì´ìŠ¤ ì²˜ë¦¬ í•¨ìˆ˜ í˜¸ì¶œ
 			MB_Sleep(500);
 			handle_backspace();
 			key_input[1] = 0;
 		}
 
-		if(key_input[1] && (key_input[0] == 0xF)) {							//S16¹ø Tx¿¡ string ÇÒ´ç
+		if(key_input[1] && (key_input[0] == 0xF)) {							//S16ë²ˆ Txì— string í• ë‹¹
 			MB_Sleep(500);
 			for(int i = 0; i<=79; i++){
 				Tx[i] = lcd_string[i];
@@ -179,7 +179,7 @@ int main()
 			SendHandler(&uart_device, &Tx);
 		}
 
-		if(key_input[1] && ( mode_count == 1 ) &&!(key_input[0] == 0xB || key_input[0] == 0xC || key_input[0] == 0xE || key_input[0] == 0xF) && (lcd_count < 11)){		//¼ıÀÚ ¸ğµåÀÏ ¶§ ¼ıÀÚ ÀÔ·Â
+		if(key_input[1] && ( mode_count == 1 ) &&!(key_input[0] == 0xB || key_input[0] == 0xC || key_input[0] == 0xE || key_input[0] == 0xF) && (lcd_count < 11)){		//ìˆ«ì ëª¨ë“œì¼ ë•Œ ìˆ«ì ì…ë ¥
 			MB_Sleep(500);
 			key_data = keypad_number(key_input[0]);
 			Iic_LCD_write_byte(key_data, DATA);
@@ -189,13 +189,13 @@ int main()
 			key_data = 0;
 			}
 
-		if(key_input[1] && ( mode_count == 0 ) && !(key_input[0] == 0xB || key_input[0] == 0xC || key_input[0] == 0xE || key_input[0] == 0xF) && lcd_count < 11){		// ¿µ¾î ¸ğµåÀÏ ¶§ ¿µ¾î ÀÔ·Â
+		if(key_input[1] && ( mode_count == 0 ) && !(key_input[0] == 0xB || key_input[0] == 0xC || key_input[0] == 0xE || key_input[0] == 0xF) && lcd_count < 11){		// ì˜ì–´ ëª¨ë“œì¼ ë•Œ ì˜ì–´ ì…ë ¥
 
-			MB_Sleep(100);			//µğ¹Ù¿î½Ì
+			MB_Sleep(100);			//ë””ë°”ìš´ì‹±
 
-			current_key = key_input[0];		// ÇöÀç ´©¸¥ Å°
+			current_key = key_input[0];		// í˜„ì¬ ëˆ„ë¥¸ í‚¤
 
-			key_count[current_key]++;  // ÇöÀç Å°ÀÇ ´©¸¥ È½¼ö ¼¼±â
+			key_count[current_key]++;  // í˜„ì¬ í‚¤ì˜ ëˆ„ë¥¸ íšŸìˆ˜ ì„¸ê¸°
 
 			if(key_count[current_key] % 3 == 1){
 				key_data = keypad_value1(key_input[0]);
@@ -207,7 +207,7 @@ int main()
 				key_data = keypad_value3(key_input[0]);
 			}
 
-			MB_Sleep(100);			//µğ¹Ù¿î½Ì
+			MB_Sleep(100);			//ë””ë°”ìš´ì‹±
 
 			Iic_LCD_write_byte(key_data , DATA);
     		Iic_movecursor(0, lcd_count+5);
@@ -235,7 +235,7 @@ void clear_lcd(int a) {
     }
 }
 
-void SendHandler(void *CallBackRef, unsigned int EventData){		//sendÇÏ°í clear_lcd·Î ÃÊ±âÈ­ ±Ùµ¥ clear_lcd °ª 5~16 Áö¿ö¼­ 0~4°ªÀÌ ³²À½ // ¼ö°íÁ¾°á
+void SendHandler(void *CallBackRef, unsigned int EventData){		//sendí•˜ê³  clear_lcdë¡œ ì´ˆê¸°í™” ê·¼ë° clear_lcd ê°’ 5~16 ì§€ì›Œì„œ 0~4ê°’ì´ ë‚¨ìŒ // ìˆ˜ê³ ì¢…ê²°
     XUartLite_Send(&uart_device, (u8 *)Tx, 11 );
     clear_lcd(1);
     Iic_movecursor(0, 5);
@@ -254,7 +254,7 @@ void RecvHandler(void *CallBackRef, unsigned int EventData){
     }
 }
 
-void handle_backspace() {						//S15 <- ¹®ÀÚ »èÁ¦ ¹öÆ°
+void handle_backspace() {						//S15 <- ë¬¸ì ì‚­ì œ ë²„íŠ¼
     if (lcd_count > 0) {
         // Move the cursor one position back
         lcd_count--;
@@ -277,7 +277,7 @@ void handle_backspace() {						//S15 <- ¹®ÀÚ »èÁ¦ ¹öÆ°
 
 
 
-char keypad_value1(u8 key_input){	//¸ğµâ R1¿¡ col0 ¿¬°á	//¸ğµâ C1¿¡ row0 ¿¬°á	//xdc¿¡¼­ row´Â pulldown
+char keypad_value1(u8 key_input){	//ëª¨ë“ˆ R1ì— col0 ì—°ê²°	//ëª¨ë“ˆ C1ì— row0 ì—°ê²°	//xdcì—ì„œ rowëŠ” pulldown
 
 	if (key_input == 0x0) 	   return 'A';
 	else if (key_input == 0x1) return 'D';
@@ -369,7 +369,7 @@ char keypad_number(u8 key_input){
 //	return mode_count;
 //}
 
-//void lcd_string_uart_output()				//ÀúÀåµÈ lcd_string È®ÀÎ¿ë
+//void lcd_string_uart_output()				//ì €ì¥ëœ lcd_string í™•ì¸ìš©
 
 ////LCD
 void Iic_LCD_write_byte(u8 tx_data, u8 rs){	// d7 d6 d5 d4 BL EN RW RS
@@ -382,7 +382,7 @@ void Iic_LCD_write_byte(u8 tx_data, u8 rs){	// d7 d6 d5 d4 BL EN RW RS
     return;
 }
 
-void Iic_LCD_init(void){	//¿Ö µô·¹ÀÌ ¾ø´Â°¡ -> ºí·° µğÀÚÀÎ¿¡¼­ clk¼³Á¤ÇÑ°Í¿¡ ÀÇÇØ µô·¹ÀÌ ÃæÁ·µÇ¾î¼­
+void Iic_LCD_init(void){	//ì™œ ë”œë ˆì´ ì—†ëŠ”ê°€ -> ë¸”ëŸ­ ë””ìì¸ì—ì„œ clkì„¤ì •í•œê²ƒì— ì˜í•´ ë”œë ˆì´ ì¶©ì¡±ë˜ì–´ì„œ
 	MB_Sleep(15);
 	Iic_LCD_write_byte(0x33, COMMAND);
 	Iic_LCD_write_byte(0x32, COMMAND);
@@ -395,13 +395,13 @@ void Iic_LCD_init(void){	//¿Ö µô·¹ÀÌ ¾ø´Â°¡ -> ºí·° µğÀÚÀÎ¿¡¼­ clk¼³Á¤ÇÑ°Í¿¡ ÀÇÇ
 }
 
 void Iic_movecursor(u8 row, u8 col){
-	row = row % 2;		// = 0 or 1 // carry¿¡ ÀÇÇÑ ´Ù¸¥ ¸í·É¾î ¼öÇàÀ» ¸·µµ·Ï
-	col = col % 40;		// ÇÑ ÁÙ¿¡ 40ÀÚ // carry¿¡ ÀÇÇÑ ´Ù¸¥ ¸í·É¾î ¼öÇàÀ» ¸·µµ·Ï
+	row = row % 2;		// = 0 or 1 // carryì— ì˜í•œ ë‹¤ë¥¸ ëª…ë ¹ì–´ ìˆ˜í–‰ì„ ë§‰ë„ë¡
+	col = col % 40;		// í•œ ì¤„ì— 40ì // carryì— ì˜í•œ ë‹¤ë¥¸ ëª…ë ¹ì–´ ìˆ˜í–‰ì„ ë§‰ë„ë¡
 	Iic_LCD_write_byte(0x80 | (row << 6) | col, COMMAND);
 	return;
 }
 
-void LCD_write_string(char *string){	//¹®ÀÚ¿­Àº ¸¶Áö¸·¿¡ Null¹®ÀÚ Æ÷ÇÔ	//nullÀº ³í¸®°ª False
+void LCD_write_string(char *string){	//ë¬¸ìì—´ì€ ë§ˆì§€ë§‰ì— Nullë¬¸ì í¬í•¨	//nullì€ ë…¼ë¦¬ê°’ False
 	for (int i = 0; string[i]; i++)
 	{
 		Iic_LCD_write_byte(string[i], DATA);
@@ -411,7 +411,7 @@ void LCD_write_string(char *string){	//¹®ÀÚ¿­Àº ¸¶Áö¸·¿¡ Null¹®ÀÚ Æ÷ÇÔ	//nullÀº 
 }
 
 void Iic_LCD_create_char(u8 location, u8 charmap[]) {
-    location &= 0x7; // ¿ì¸®´Â 0-7 »çÀÌÀÇ 8°³ Ä¿½ºÅÒ ¹®ÀÚ¸¸ °¡Áú ¼ö ÀÖÀ½
+    location &= 0x7; // ìš°ë¦¬ëŠ” 0-7 ì‚¬ì´ì˜ 8ê°œ ì»¤ìŠ¤í…€ ë¬¸ìë§Œ ê°€ì§ˆ ìˆ˜ ìˆìŒ
     Iic_LCD_write_byte(0x40 | (location << 3), COMMAND);
     for (int i = 0; i < 8; i++) {
         Iic_LCD_write_byte(charmap[i], DATA);
