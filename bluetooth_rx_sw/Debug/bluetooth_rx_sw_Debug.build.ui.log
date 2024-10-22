@@ -1,0 +1,94 @@
+2024-06-03T12:22:50.150129300255-12:22:50 **** Incremental Build of configuration Debug for project bluetooth_rx_sw ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/LSS/_workspace/vitis/bluetooth_pj_hw/export/bluetooth_pj_hw/sw/bluetooth_pj_hw/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/bluetooth_rx_sw/src/helloworld.c57-1-1initialization discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]1-../src/helloworld.c:57:28: warning: initialization discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+000-  unsigned int *key_input = (volatile unsigned int *)KEYPAD_ADDR;
+000-                            ^
+000/bluetooth_rx_sw/src/helloworld.c136-1-1the address of 'Rx' will always evaluate as 'true' [-Waddress]1-../src/helloworld.c:136:9: warning: the address of 'Rx' will always evaluate as 'true' [-Waddress]
+000-      if(Rx){                //Rx 수신
+000-         ^~
+000/bluetooth_rx_sw/src/helloworld.c137-1-1passing argument 2 of 'RecvHandler' makes integer from pointer without a cast [-Wint-conversion]1-../src/helloworld.c:137:30: warning: passing argument 2 of 'RecvHandler' makes integer from pointer without a cast [-Wint-conversion]
+000-    RecvHandler(&uart_device, &Rx);
+000-                              ^~~
+000/bluetooth_rx_sw/src/helloworld.c29-1-1expected 'unsigned int' but argument is of type 'volatile char (*)[81]'0-../src/helloworld.c:29:50: note: expected 'unsigned int' but argument is of type 'volatile char (*)[81]'
+000- void RecvHandler(void *CallBackRef, unsigned int EvetnData);
+000-                                     ~~~~~~~~~~~~~^~~~~~~~~
+000/bluetooth_rx_sw/src/helloworld.c141-1-1implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]1-../src/helloworld.c:141:7: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
+000-       MB_Sleep(500);
+000-       ^~~~~~~~
+000-       mb_sleep
+000/bluetooth_rx_sw/src/helloworld.c142-1-1statement with no effect [-Wunused-value]1-../src/helloworld.c:142:16: warning: statement with no effect [-Wunused-value]
+000-       key_data == '\0';
+000-       ~~~~~~~~~^~~~~~~
+000/bluetooth_rx_sw/src/helloworld.c179-1-1passing argument 2 of 'SendHandler' makes integer from pointer without a cast [-Wint-conversion]1-../src/helloworld.c:179:30: warning: passing argument 2 of 'SendHandler' makes integer from pointer without a cast [-Wint-conversion]
+000-    SendHandler(&uart_device, &Tx);
+000-                              ^~~
+000/bluetooth_rx_sw/src/helloworld.c28-1-1expected 'unsigned int' but argument is of type 'volatile char (*)[81]'0-../src/helloworld.c:28:50: note: expected 'unsigned int' but argument is of type 'volatile char (*)[81]'
+000- void SendHandler(void *CallBackRef, unsigned int EvetnData);
+000-                                     ~~~~~~~~~~~~~^~~~~~~~~
+000/bluetooth_rx_sw/src/helloworld.c60-1-1variable 'count_mode' set but not used [-Wunused-but-set-variable]1-../src/helloworld.c:60:5: warning: variable 'count_mode' set but not used [-Wunused-but-set-variable]
+000-  u8 count_mode = 0;  // 영어 입력 3가지 모드 전환
+000-     ^~~~~~~~~~
+000-../src/helloworld.c: In function 'RecvHandler':
+000/bluetooth_rx_sw/src/helloworld.c252-1-1passing argument 1 of 'LCD_write_string' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]1-../src/helloworld.c:252:26: warning: passing argument 1 of 'LCD_write_string' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+000-         LCD_write_string(Rx); // Display received string on LCD
+000-                          ^~
+000/bluetooth_rx_sw/src/helloworld.c18-1-1expected 'char *' but argument is of type 'volatile char *'0-../src/helloworld.c:18:29: note: expected 'char *' but argument is of type 'volatile char *'
+000- void LCD_write_string(char *string); //문자열 배열 -> 주소값으로 받아야함
+000-                       ~~~~~~^~~~~~
+000-../src/helloworld.c: In function 'keypad_value1':
+000/bluetooth_rx_sw/src/helloworld.c295-1-1'return' with no value, in function returning non-void1-../src/helloworld.c:295:2: warning: 'return' with no value, in function returning non-void
+000-  return;
+000-  ^~~~~~
+000/bluetooth_rx_sw/src/helloworld.c280-1-1declared here0-../src/helloworld.c:280:6: note: declared here
+000- char keypad_value1(u8 key_input){ //모듈 R1에 col0 연결 //모듈 C1에 row0 연결 //xdc에서 row는 pulldown
+000-      ^~~~~~~~~~~~~
+000-../src/helloworld.c: In function 'keypad_value2':
+000/bluetooth_rx_sw/src/helloworld.c314-1-1'return' with no value, in function returning non-void1-../src/helloworld.c:314:3: warning: 'return' with no value, in function returning non-void
+000-   return;
+000-   ^~~~~~
+000/bluetooth_rx_sw/src/helloworld.c299-1-1declared here0-../src/helloworld.c:299:6: note: declared here
+000- char keypad_value2(u8 key_input){
+000-      ^~~~~~~~~~~~~
+000-../src/helloworld.c: In function 'keypad_value3':
+000/bluetooth_rx_sw/src/helloworld.c333-1-1'return' with no value, in function returning non-void1-../src/helloworld.c:333:3: warning: 'return' with no value, in function returning non-void
+000-   return;
+000-   ^~~~~~
+000/bluetooth_rx_sw/src/helloworld.c318-1-1declared here0-../src/helloworld.c:318:6: note: declared here
+000- char keypad_value3(u8 key_input){
+000-      ^~~~~~~~~~~~~
+000-../src/helloworld.c: In function 'keypad_number':
+000/bluetooth_rx_sw/src/helloworld.c352-1-1'return' with no value, in function returning non-void1-../src/helloworld.c:352:2: warning: 'return' with no value, in function returning non-void
+000-  return;
+000-  ^~~~~~
+000/bluetooth_rx_sw/src/helloworld.c337-1-1declared here0-../src/helloworld.c:337:6: note: declared here
+000- char keypad_number(u8 key_input){
+000-      ^~~~~~~~~~~~~
+000-../src/helloworld.c: In function 'Iic_LCD_write_byte':
+000/bluetooth_rx_sw/src/helloworld.c381-1-1passing argument 3 of 'XIic_Send' from incompatible pointer type [-Wincompatible-pointer-types]1-../src/helloworld.c:381:45: warning: passing argument 3 of 'XIic_Send' from incompatible pointer type [-Wincompatible-pointer-types]
+000-     XIic_Send(iic_device.BaseAddress, 0x27, &data_t, 4, XIIC_STOP);
+000-                                             ^~~~~~~
+000-In file included from D:/LSS/_workspace/vitis/bluetooth_pj_hw/export/bluetooth_pj_hw/sw/bluetooth_pj_hw/standalone_domain/bspinclude/include/xiic.h:322,
+000-                 from ../src/helloworld.c:6:
+000/bluetooth_pj_hw/export/bluetooth_pj_hw/sw/bluetooth_pj_hw/standalone_domain/bspinclude/include/xiic_l.h573-1-1expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'u8 (*)[4]' {aka 'unsigned char (*)[4]'}0-D:/LSS/_workspace/vitis/bluetooth_pj_hw/export/bluetooth_pj_hw/sw/bluetooth_pj_hw/standalone_domain/bspinclude/include/xiic_l.h:573:10: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'u8 (*)[4]' {aka 'unsigned char (*)[4]'}
+000-      u8 *BufferPtr, unsigned ByteCount, u8 Option);
+000-      ~~~~^~~~~~~~~
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: bluetooth_rx_sw.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/LSS/_workspace/vitis/bluetooth_pj_hw/export/bluetooth_pj_hw/sw/bluetooth_pj_hw/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "bluetooth_rx_sw.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: bluetooth_rx_sw.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size bluetooth_rx_sw.elf  |tee "bluetooth_rx_sw.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  10796	    320	   3620	  14736	   3990	bluetooth_rx_sw.elf
+000-'Finished building: bluetooth_rx_sw.elf.size'
+000-' '
+00255-
+12:22:50 Build Finished (took 564ms)
+

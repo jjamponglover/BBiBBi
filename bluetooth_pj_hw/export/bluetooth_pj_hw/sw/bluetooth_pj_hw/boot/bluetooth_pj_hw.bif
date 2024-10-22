@@ -1,0 +1,6 @@
+/*bluetooth_pj_hw*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

@@ -1,0 +1,1068 @@
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened new HwDB with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-05-31.11:07:28::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw"
+		}]
+}
+TRACE::2024-05-31.11:07:28::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-05-31.11:07:28::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-05-31.11:07:28::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw"
+		}]
+}
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWDomain::checking for install qemu data   : 
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:28::SCWMssOS::No sw design opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::mss does not exists at D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::Creating sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::Adding the swdes entry, created swdb D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss with des name D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::updating the scw layer changes to swdes at   D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::Writing mss at D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::Completed writing the mss file at D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-05-31.11:07:28::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-05-31.11:07:28::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:28::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:28::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:28::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:28::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:28::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:28::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:28::SCWMssOS::Completed writing the mss file at D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-05-31.11:07:28::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2024-05-31.11:07:29::SCWPlatform::Started generating the artifacts platform bluetooth_pj_hw
+TRACE::2024-05-31.11:07:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-05-31.11:07:29::SCWPlatform::Started generating the artifacts for system configuration bluetooth_pj_hw
+LOG::2024-05-31.11:07:29::SCWSystem::Checking the domain standalone_domain
+LOG::2024-05-31.11:07:29::SCWSystem::Not a boot domain 
+LOG::2024-05-31.11:07:29::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-05-31.11:07:29::SCWDomain::Generating domain artifcats
+TRACE::2024-05-31.11:07:29::SCWMssOS::Generating standalone artifcats
+TRACE::2024-05-31.11:07:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2024-05-31.11:07:29::SCWMssOS::Could not open the swdb for D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2024-05-31.11:07:29::SCWMssOS::Could not open the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-05-31.11:07:29::SCWMssOS::No sw design opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::mss exists loading the mss file  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::Opened the sw design from mss  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::Adding the swdes entry D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-05-31.11:07:29::SCWMssOS::updating the scw layer about changes
+TRACE::2024-05-31.11:07:29::SCWMssOS::Opened the sw design.  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::Completed writing the mss file at D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-05-31.11:07:29::SCWMssOS::Mss edits present, copying mssfile into export location D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-05-31.11:07:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-05-31.11:07:29::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-05-31.11:07:29::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-05-31.11:07:29::SCWMssOS::Copying to export directory.
+TRACE::2024-05-31.11:07:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-05-31.11:07:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-05-31.11:07:29::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-05-31.11:07:29::SCWSystem::Completed Processing the sysconfig bluetooth_pj_hw
+LOG::2024-05-31.11:07:29::SCWPlatform::Completed generating the artifacts for system configuration bluetooth_pj_hw
+TRACE::2024-05-31.11:07:29::SCWPlatform::Started preparing the platform 
+TRACE::2024-05-31.11:07:29::SCWSystem::Writing the bif file for system config bluetooth_pj_hw
+TRACE::2024-05-31.11:07:29::SCWSystem::dir created 
+TRACE::2024-05-31.11:07:29::SCWSystem::Writing the bif 
+TRACE::2024-05-31.11:07:29::SCWPlatform::Started writing the spfm file 
+TRACE::2024-05-31.11:07:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-05-31.11:07:29::SCWPlatform::Completed generating the platform
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"39eda8d5a419936828f1948e5c144f3f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-05-31.11:07:29::SCWPlatform::updated the xpfm file.
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"39eda8d5a419936828f1948e5c144f3f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"39eda8d5a419936828f1948e5c144f3f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_2
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"39eda8d5a419936828f1948e5c144f3f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-05-31.11:07:29::SCWPlatform::Clearing the existing platform
+TRACE::2024-05-31.11:07:29::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-05-31.11:07:29::SCWMssOS::Removing the swdes entry for  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWSystem::Clearing the domains completed.
+TRACE::2024-05-31.11:07:29::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform location is D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Removing the HwDB with name D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened new HwDB with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWReader::Active system found as  bluetooth_pj_hw
+TRACE::2024-05-31.11:07:29::SCWReader::Handling sysconfig bluetooth_pj_hw
+TRACE::2024-05-31.11:07:29::SCWDomain::checking for install qemu data   : 
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::No sw design opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::mss exists loading the mss file  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::Opened the sw design from mss  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::Adding the swdes entry D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-05-31.11:07:29::SCWMssOS::updating the scw layer about changes
+TRACE::2024-05-31.11:07:29::SCWMssOS::Opened the sw design.  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-05-31.11:07:29::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWReader::No isolation master present  
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:29::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:29::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:29::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:29::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::In reload Mss file.
+TRACE::2024-05-31.11:07:30::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:30::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:30::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:30::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:30::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2024-05-31.11:07:30::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2024-05-31.11:07:30::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2024-05-31.11:07:30::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-05-31.11:07:30::SCWMssOS::No sw design opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::mss exists loading the mss file  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::Opened the sw design from mss  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::Adding the swdes entry D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-05-31.11:07:30::SCWMssOS::updating the scw layer about changes
+TRACE::2024-05-31.11:07:30::SCWMssOS::Opened the sw design.  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:30::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:30::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:30::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:30::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:30::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:30::SCWMssOS::Removing the swdes entry for  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2024-05-31.11:07:34::SCWPlatform::Started generating the artifacts platform bluetooth_pj_hw
+TRACE::2024-05-31.11:07:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-05-31.11:07:34::SCWPlatform::Started generating the artifacts for system configuration bluetooth_pj_hw
+LOG::2024-05-31.11:07:34::SCWSystem::Checking the domain standalone_domain
+LOG::2024-05-31.11:07:34::SCWSystem::Not a boot domain 
+LOG::2024-05-31.11:07:34::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-05-31.11:07:34::SCWDomain::Generating domain artifcats
+TRACE::2024-05-31.11:07:34::SCWMssOS::Generating standalone artifcats
+TRACE::2024-05-31.11:07:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-05-31.11:07:34::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:34::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:34::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:34::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:34::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:34::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:34::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:34::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:34::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::No sw design opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:34::SCWMssOS::mss exists loading the mss file  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:34::SCWMssOS::Opened the sw design from mss  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:34::SCWMssOS::Adding the swdes entry D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-05-31.11:07:34::SCWMssOS::updating the scw layer about changes
+TRACE::2024-05-31.11:07:34::SCWMssOS::Opened the sw design.  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:34::SCWMssOS::Completed writing the mss file at D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-05-31.11:07:34::SCWMssOS::Mss edits present, copying mssfile into export location D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-05-31.11:07:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-05-31.11:07:34::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-05-31.11:07:34::SCWMssOS::doing bsp build ... 
+TRACE::2024-05-31.11:07:34::SCWMssOS::System Command Ran  D: & cd  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp & make 
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-05-31.11:07:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-05-31.11:07:34::SCWMssOS::-Wextra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-05-31.11:07:34::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-05-31.11:07:34::SCWMssOS::-Wextra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_5/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2024-05-31.11:07:34::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2024-05-31.11:07:34::SCWMssOS::Wextra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/myip_keypad_v1_0/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/myip_keypad_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2024-05-31.11:07:34::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2024-05-31.11:07:34::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-05-31.11:07:34::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-05-31.11:07:34::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-05-31.11:07:34::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-05-31.11:07:34::SCWMssOS::all -Wextra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-05-31.11:07:34::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-05-31.11:07:34::SCWMssOS::xtra"
+
+TRACE::2024-05-31.11:07:34::SCWMssOS::"Compiling bram"
+
+TRACE::2024-05-31.11:07:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-05-31.11:07:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-05-31.11:07:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-05-31.11:07:35::SCWMssOS::xtra"
+
+TRACE::2024-05-31.11:07:35::SCWMssOS::"Compiling cpu"
+
+TRACE::2024-05-31.11:07:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/iic_v3_5/src"
+
+TRACE::2024-05-31.11:07:35::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2024-05-31.11:07:35::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2024-05-31.11:07:35::SCWMssOS::tra"
+
+TRACE::2024-05-31.11:07:35::SCWMssOS::"Compiling iic"
+
+TRACE::2024-05-31.11:07:36::SCWMssOS::"Running Make libs in microblaze_0/libsrc/myip_keypad_v1_0/src"
+
+TRACE::2024-05-31.11:07:36::SCWMssOS::make -C microblaze_0/libsrc/myip_keypad_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-05-31.11:07:36::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-05-31.11:07:36::SCWMssOS::all -Wextra"
+
+TRACE::2024-05-31.11:07:36::SCWMssOS::"Compiling myip_keypad..."
+
+TRACE::2024-05-31.11:07:36::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-05-31.11:07:36::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-05-31.11:07:36::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-05-31.11:07:36::SCWMssOS::ll -Wextra"
+
+TRACE::2024-05-31.11:07:36::SCWMssOS::"Compiling standalone";
+
+TRACE::2024-05-31.11:07:37::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-05-31.11:07:37::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-05-31.11:07:37::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-05-31.11:07:37::SCWMssOS:: -Wextra"
+
+TRACE::2024-05-31.11:07:38::SCWMssOS::"Compiling uartlite"
+
+TRACE::2024-05-31.11:07:38::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-05-31.11:07:38::SCWMssOS::Copying to export directory.
+TRACE::2024-05-31.11:07:38::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-05-31.11:07:38::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-05-31.11:07:38::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-05-31.11:07:38::SCWSystem::Completed Processing the sysconfig bluetooth_pj_hw
+LOG::2024-05-31.11:07:38::SCWPlatform::Completed generating the artifacts for system configuration bluetooth_pj_hw
+TRACE::2024-05-31.11:07:38::SCWPlatform::Started preparing the platform 
+TRACE::2024-05-31.11:07:38::SCWSystem::Writing the bif file for system config bluetooth_pj_hw
+TRACE::2024-05-31.11:07:38::SCWSystem::dir created 
+TRACE::2024-05-31.11:07:38::SCWSystem::Writing the bif 
+TRACE::2024-05-31.11:07:38::SCWPlatform::Started writing the spfm file 
+TRACE::2024-05-31.11:07:38::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-05-31.11:07:38::SCWPlatform::Completed generating the platform
+TRACE::2024-05-31.11:07:38::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:38::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:38::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:38::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:38::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:38::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:38::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:38::SCWWriter::formatted JSON is {
+	"platformName":	"bluetooth_pj_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"bluetooth_pj_hw",
+	"platHandOff":	"D:/LSS/vivado_2019/soc_24_1/bluetooth_pj_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/bluetooth_pj_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"bluetooth_pj_hw",
+	"systems":	[{
+			"systemName":	"bluetooth_pj_hw",
+			"systemDesc":	"bluetooth_pj_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"bluetooth_pj_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"39eda8d5a419936828f1948e5c144f3f",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-05-31.11:07:38::SCWPlatform::updated the xpfm file.
+TRACE::2024-05-31.11:07:38::SCWPlatform::Trying to open the hw design at D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform::DSA given D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform::DSA absoulate path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform::DSA directory D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw
+TRACE::2024-05-31.11:07:38::SCWPlatform:: Platform Path D:/LSS/_workspace/vitis/bluetooth_pj_hw/hw/bluetooth_pj_wrapper.xsa
+TRACE::2024-05-31.11:07:38::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-05-31.11:07:38::SCWPlatform::Trying to set the existing hwdb with name bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:38::SCWPlatform::Opened existing hwdb bluetooth_pj_wrapper_3
+TRACE::2024-05-31.11:07:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-05-31.11:07:38::SCWMssOS::Checking the sw design at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-05-31.11:07:38::SCWMssOS::DEBUG:  swdes dump  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+D:/LSS/_workspace/vitis/btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2024-05-31.11:07:38::SCWMssOS::Sw design exists and opened at  D:/LSS/_workspace/vitis/bluetooth_pj_hw/microblaze_0/standalone_domain/bsp/system.mss

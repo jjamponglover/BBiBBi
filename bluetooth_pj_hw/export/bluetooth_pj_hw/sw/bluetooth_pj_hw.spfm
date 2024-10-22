@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="bluetooth_pj_hw"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+bluetooth_pj_hw
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="bluetooth_pj_hw">
+        <sdx:configuration sdx:name="bluetooth_pj_hw"
+                           sdx:displayName="bluetooth_pj_hw"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>bluetooth_pj_hw</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="bluetooth_pj_hw/boot/bluetooth_pj_hw.bif"
+                            sdx:readme="bluetooth_pj_hw/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="bluetooth_pj_hw/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="bluetooth_pj_hw/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="bluetooth_pj_hw/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>
