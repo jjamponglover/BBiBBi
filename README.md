@@ -28,5 +28,5 @@
 |7|8|9|문자확정|
 |mode(Eng/Num)|0|취소|전송|
 
-# 📌 PPT
+# ◾ PPT
 https://www.miricanvas.com/v/13ag62e
